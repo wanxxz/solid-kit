@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src", "test"],
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "target": "esnext",
+    "types": ["node", "jest"],
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "outFile": "./dist/index.js"
+  }
+}

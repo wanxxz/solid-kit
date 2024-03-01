@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src"],
+  "composite": true,
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "target": "esnext",
+    "types": ["solid-start/env"]
+  }
+}

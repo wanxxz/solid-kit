@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src"],
+  "references": [{ "path": "../ui" }, { "path": "../api" }],
+  "compilerOptions": {
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "target": "esnext",
+    "types": ["node", "vinxi/client"]
+  }
+}
